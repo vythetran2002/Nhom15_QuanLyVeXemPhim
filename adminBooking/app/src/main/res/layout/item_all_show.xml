@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/txtNoShowAll"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txtScreenShowAll"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txtShowShowAll"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtMovieShowAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:id="@+id/btnStoprun"
+            android:text="asdasdas"
+            android:backgroundTint="@color/teal_700"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnStopNow"
+            android:layout_marginLeft="10dp"
+            android:text="asdasdas"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

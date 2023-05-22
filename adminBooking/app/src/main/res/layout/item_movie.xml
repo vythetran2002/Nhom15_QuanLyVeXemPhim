@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgMoie"
+            android:scaleType="centerCrop"
+            android:layout_width="200dp"
+            android:layout_height="300dp"/>
+        <TextView
+            android:id="@+id/txtNameMovie"
+            android:textSize="20sp"
+            android:text="asdsadasd"
+            android:textColor="#FFC107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/txtCast"
+            android:textColor="#2196F3"
+            android:text="Cast: "
+            android:layout_width="180dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/btnDeleteItemMovie"
+            android:text="Delete"
+            android:layout_gravity="bottom"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="#03A9F4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.fragment.RegisterFragment">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           app:startIconDrawable="@drawable/ic_person"
+           android:layout_marginLeft="32dp"
+           android:layout_marginRight="32dp"
+           app:endIconMode="clear_text"
+           app:errorEnabled="true"
+           android:layout_width="match_parent"
+           android:hint="Name"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/titName"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           app:startIconDrawable="@drawable/ic_person"
+           android:layout_marginLeft="32dp"
+           android:layout_marginRight="32dp"
+           app:errorEnabled="true"
+           app:endIconMode="clear_text"
+           android:layout_width="match_parent"
+           android:hint="Age"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:inputType="number"
+                android:id="@+id/titAge"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           app:startIconDrawable="@drawable/ic_person"
+           android:layout_marginLeft="32dp"
+           android:layout_marginRight="32dp"
+           app:errorEnabled="true"
+
+           app:endIconMode="clear_text"
+           android:layout_width="match_parent"
+           android:hint="Male"
+           android:layout_height="wrap_content">
+
+           <AutoCompleteTextView
+               android:id="@+id/autocompe"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           app:startIconDrawable="@drawable/ic_baseline_phone_android_24"
+           android:layout_marginLeft="32dp"
+           app:errorEnabled="true"
+
+           android:layout_marginRight="32dp"
+           app:endIconMode="clear_text"
+           android:layout_width="match_parent"
+           android:hint="Mobile phone"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:inputType="number"
+               android:id="@+id/titPhone"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           app:startIconDrawable="@drawable/ic_baseline_email_24"
+           android:layout_marginLeft="32dp"
+           app:errorEnabled="true"
+           android:layout_marginRight="32dp"
+           app:endIconMode="clear_text"
+           android:layout_width="match_parent"
+           android:hint="Name"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/titEmail"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           app:startIconDrawable="@drawable/ic_baseline_remove_red_eye_24"
+           android:layout_marginLeft="32dp"
+           android:layout_marginRight="32dp"
+           app:endIconMode="clear_text"
+           app:passwordToggleEnabled="true"
+           android:layout_width="match_parent"
+           android:hint="Password"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:inputType="textPassword"
+               android:id="@+id/titPassword"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           app:startIconDrawable="@drawable/ic_baseline_remove_red_eye_24"
+           app:passwordToggleEnabled="true"
+           android:layout_marginLeft="32dp"
+           android:layout_marginRight="32dp"
+           app:endIconMode="clear_text"
+           android:layout_width="match_parent"
+           android:hint="Password"
+           app:errorEnabled="true"
+           android:layout_height="wrap_content">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/titPasswordConfirm"
+               android:inputType="textPassword"
+
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/mbtnRegister"
+           android:layout_marginLeft="200dp"
+           android:text="Register"
+           android:textAllCaps="false"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+
+</FrameLayout>

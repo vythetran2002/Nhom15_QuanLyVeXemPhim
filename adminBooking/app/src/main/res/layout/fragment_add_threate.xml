@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.Fragment.AddThreateFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Theatre Name: "
+                android:layout_width="100dp"
+                android:layout_height="40dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:enabled="true"
+                app:endIconMode="clear_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtTheatreName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Address: "
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="40dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:enabled="true"
+                app:endIconMode="clear_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:text="Place: "
+                android:layout_width="100dp"
+                android:layout_height="40dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:enabled="true"
+                app:endIconMode="clear_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="State: "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="40dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:enabled="true"
+                app:endIconMode="clear_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtState"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Pin Code: "
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:layout_width="100dp"
+                android:layout_height="40dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:enabled="true"
+                app:endIconMode="clear_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="number"
+                    android:id="@+id/edtPin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Username: "
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:layout_width="100dp"
+                android:layout_height="40dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:enabled="true"
+                app:endIconMode="clear_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Password: "
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                android:layout_width="100dp"
+                android:layout_height="40dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:enabled="true"
+                app:endIconMode="clear_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnAddThreatre"
+                android:layout_marginRight="40dp"
+                android:text="Add Theatre"
+                android:textColor="@color/white"
+                android:background="#FF5722"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</FrameLayout>

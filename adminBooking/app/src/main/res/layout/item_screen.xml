@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/txtNoScreen"
+            android:text="Slno"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/txtScreenName"
+            android:text="Screen Name	"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Seats"
+            android:id="@+id/txtSeats"
+            android:textColor="@color/black"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/black"
+            android:text="Charge"
+            android:id="@+id/txtCharge"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtShowtime"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnAddScreen"
+            android:text="Add"
+            android:backgroundTint="@color/teal_700"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

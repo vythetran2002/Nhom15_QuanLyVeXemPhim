@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Fragment.Theatre_Details">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="Theater Name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtTheaterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Theater Address"
+                android:textColor="@color/black"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtTheaterAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Place	"
+                android:textColor="@color/black"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="State	"
+                android:textColor="@color/black"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Pin"
+                android:textColor="@color/black"
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtPin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="no"
+                android:textStyle="bold"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Screen Name"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Seats"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="@color/black"
+                android:text="Charge"
+                android:textStyle="bold"
+
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Show Time"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btnAddScreenn"
+                android:text="AS"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvScreenDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</FrameLayout>

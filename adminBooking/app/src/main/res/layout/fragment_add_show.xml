@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Fragment.AddShow">
+
+   <LinearLayout
+       android:layout_marginTop="30dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent" android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_marginTop="4dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:text="Select Movie: "
+               android:layout_marginLeft="5dp"
+               android:textColor="#E91E63"
+               android:textAllCaps="false"
+               android:textSize="17sp"
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"/>
+           <Spinner
+               android:id="@+id/spnSelectmovie"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:textSize="17sp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="4dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:text="Select Screen: "
+               android:layout_marginLeft="5dp"
+
+               android:textColor="#E91E63"
+               android:textAllCaps="false"
+               android:textSize="17sp"
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"/>
+           <Spinner
+               android:id="@+id/spnSelectScreen"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:textSize="17sp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="4dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:text="Select Show Times: "
+               android:layout_marginLeft="5dp"
+
+               android:textColor="#E91E63"
+               android:textAllCaps="false"
+               android:textSize="17sp"
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"/>
+           <Spinner
+               android:id="@+id/spnShowTime"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textAllCaps="false"
+               android:textSize="17sp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="#E91E63"
+               android:gravity="center"
+               android:textStyle="bold"
+
+               android:text="Release Date: "
+               android:layout_width="100dp"
+               android:layout_height="40dp"/>
+           <DatePicker
+               android:id="@+id/datePickerAddMovie"
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:calendarViewShown="false"
+               android:datePickerMode="spinner" />
+       </LinearLayout>
+       <Button
+           android:id="@+id/btnAddShow"
+           android:layout_gravity="right"
+           android:layout_marginRight="20dp"
+           android:text="Add show"
+           android:textAllCaps="false"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+</FrameLayout>
